@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.pcr_daily_cache.json
+.trade_days_cache.json
+.DS_Store
