@@ -2,7 +2,7 @@
 
 自动抓取 CFFEX 沪深300股指期权、SSE 300ETF 期权等数据，计算并展示 PCR（Put/Call Ratio）与沪深300指数趋势。
 
-📈 **在线图表**：https://404-karma.github.io/csi300-pcr/csi300_pcr_chart.html
+📈 **在线图表**：https://404-karma.github.io/csi300-pcr/
 
 ## 数据来源
 - 中金所 CFFEX 沪深300股指期权（IO）
