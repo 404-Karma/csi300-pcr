@@ -3,38 +3,38 @@
   • cffex_io_volume_pcr vs cffex_io_amount_pcr: 0.652
   • cffex_io_volume_pcr vs sse_300etf_volume_pcr: 0.449
   • cffex_io_volume_pcr vs sse_300etf_oi_pcr: -0.384
-  • cffex_io_volume_pcr vs szse_300etf_volume_pcr: 0.182
+  • cffex_io_volume_pcr vs szse_300etf_volume_pcr: 0.180
   • cffex_io_volume_pcr vs szse_300etf_oi_pcr: -0.399
-  • cffex_io_volume_pcr vs total_volume_pcr: 0.486
-  • cffex_io_volume_pcr vs total_oi_pcr: -0.376
+  • cffex_io_volume_pcr vs total_volume_pcr: 0.485
+  • cffex_io_volume_pcr vs total_oi_pcr: -0.377
   • cffex_io_oi_pcr vs cffex_io_amount_pcr: -0.489
-  • cffex_io_oi_pcr vs sse_300etf_volume_pcr: 0.149
-  • cffex_io_oi_pcr vs sse_300etf_oi_pcr: 0.580
-  • cffex_io_oi_pcr vs szse_300etf_volume_pcr: 0.046
-  • cffex_io_oi_pcr vs szse_300etf_oi_pcr: 0.113
-  • cffex_io_oi_pcr vs total_volume_pcr: 0.127
-  • cffex_io_oi_pcr vs total_oi_pcr: 0.571
+  • cffex_io_oi_pcr vs sse_300etf_volume_pcr: 0.148
+  • cffex_io_oi_pcr vs sse_300etf_oi_pcr: 0.578
+  • cffex_io_oi_pcr vs szse_300etf_volume_pcr: 0.044
+  • cffex_io_oi_pcr vs szse_300etf_oi_pcr: 0.111
+  • cffex_io_oi_pcr vs total_volume_pcr: 0.126
+  • cffex_io_oi_pcr vs total_oi_pcr: 0.569
   • cffex_io_amount_pcr vs sse_300etf_volume_pcr: 0.254
-  • cffex_io_amount_pcr vs sse_300etf_oi_pcr: -0.719
+  • cffex_io_amount_pcr vs sse_300etf_oi_pcr: -0.718
   • cffex_io_amount_pcr vs szse_300etf_volume_pcr: 0.112
-  • cffex_io_amount_pcr vs szse_300etf_oi_pcr: -0.464
+  • cffex_io_amount_pcr vs szse_300etf_oi_pcr: -0.462
   • cffex_io_amount_pcr vs total_volume_pcr: 0.289
-  • cffex_io_amount_pcr vs total_oi_pcr: -0.705
-  • sse_300etf_volume_pcr vs sse_300etf_oi_pcr: -0.033
-  • sse_300etf_volume_pcr vs szse_300etf_volume_pcr: 0.379
-  • sse_300etf_volume_pcr vs szse_300etf_oi_pcr: -0.169
+  • cffex_io_amount_pcr vs total_oi_pcr: -0.704
+  • sse_300etf_volume_pcr vs sse_300etf_oi_pcr: -0.032
+  • sse_300etf_volume_pcr vs szse_300etf_volume_pcr: 0.380
+  • sse_300etf_volume_pcr vs szse_300etf_oi_pcr: -0.166
   • sse_300etf_volume_pcr vs total_volume_pcr: 0.968
-  • sse_300etf_volume_pcr vs total_oi_pcr: -0.047
-  • sse_300etf_oi_pcr vs szse_300etf_volume_pcr: 0.015
-  • sse_300etf_oi_pcr vs szse_300etf_oi_pcr: 0.708
-  • sse_300etf_oi_pcr vs total_volume_pcr: -0.052
+  • sse_300etf_volume_pcr vs total_oi_pcr: -0.046
+  • sse_300etf_oi_pcr vs szse_300etf_volume_pcr: 0.017
+  • sse_300etf_oi_pcr vs szse_300etf_oi_pcr: 0.709
+  • sse_300etf_oi_pcr vs total_volume_pcr: -0.050
   • sse_300etf_oi_pcr vs total_oi_pcr: 0.991
-  • szse_300etf_volume_pcr vs szse_300etf_oi_pcr: 0.006
+  • szse_300etf_volume_pcr vs szse_300etf_oi_pcr: 0.010
   • szse_300etf_volume_pcr vs total_volume_pcr: 0.586
-  • szse_300etf_volume_pcr vs total_oi_pcr: 0.017
-  • szse_300etf_oi_pcr vs total_volume_pcr: -0.162
-  • szse_300etf_oi_pcr vs total_oi_pcr: 0.781
-  • total_volume_pcr vs total_oi_pcr: -0.059
+  • szse_300etf_volume_pcr vs total_oi_pcr: 0.020
+  • szse_300etf_oi_pcr vs total_volume_pcr: -0.159
+  • szse_300etf_oi_pcr vs total_oi_pcr: 0.782
+  • total_volume_pcr vs total_oi_pcr: -0.057
 
 【上交所官方 spot check】
   最近尝试 10 个交易日，成功比对 10 天：
@@ -55,15 +55,15 @@
   • cffex_io_volume_pcr vs 5日已实现波动率: 0.138
   • cffex_io_volume_pcr vs 20日已实现波动率: 0.089
   • sse_300etf_volume_pcr vs 5日已实现波动率: -0.009
-  • sse_300etf_volume_pcr vs 20日已实现波动率: -0.152
+  • sse_300etf_volume_pcr vs 20日已实现波动率: -0.153
   • total_volume_pcr vs 5日已实现波动率: -0.013
-  • total_volume_pcr vs 20日已实现波动率: -0.148
+  • total_volume_pcr vs 20日已实现波动率: -0.149
 
 ============================================================
 PCR 与指数高低点规律初探（统计口径：CFFEX 沪深300股指期权成交量 PCR）
 ============================================================
-区间: 20240812 ~ 20260810
-PCR 均值: 0.635  |  中位数: 0.634
+区间: 20240812 ~ 20260811
+PCR 均值: 0.635  |  中位数: 0.635
 PCR 最小值: 0.366  |  最大值: 0.942
 
 成交量 PCR 与指数通常呈负相关：
@@ -71,8 +71,8 @@ PCR 最小值: 0.366  |  最大值: 0.942
   - PCR 极低（<15% 分位）往往对应市场情绪贪婪，指数处于高位区域。
 
 PCR 高位后 5 日平均涨跌幅: +0.98%
-PCR 低位后 5 日平均涨跌幅: +0.99%
-PCR 与未来5日收益率相关性: -0.006
+PCR 低位后 5 日平均涨跌幅: +1.00%
+PCR 与未来5日收益率相关性: -0.007
 
 注意：PCR 仅为情绪指标，需结合趋势、波动率、资金流综合判断。
 ============================================================
