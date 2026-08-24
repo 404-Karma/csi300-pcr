@@ -1,49 +1,76 @@
 【内部交叉验证】各 PCR 序列相关性：
-  • cffex_io_volume_pcr vs cffex_io_oi_pcr: 0.064
-  • cffex_io_volume_pcr vs cffex_io_amount_pcr: 0.671
+  • cffex_io_volume_pcr vs cffex_io_oi_pcr: 0.065
+  • cffex_io_volume_pcr vs cffex_io_amount_pcr: 0.674
+  • cffex_io_volume_pcr vs sse_300etf_volume_pcr: 0.442
+  • cffex_io_volume_pcr vs sse_300etf_oi_pcr: -0.387
   • cffex_io_volume_pcr vs szse_300etf_volume_pcr: 0.177
   • cffex_io_volume_pcr vs szse_300etf_oi_pcr: -0.405
-  • cffex_io_volume_pcr vs total_volume_pcr: 0.402
-  • cffex_io_volume_pcr vs total_oi_pcr: -0.315
-  • cffex_io_oi_pcr vs cffex_io_amount_pcr: -0.462
+  • cffex_io_volume_pcr vs total_volume_pcr: 0.476
+  • cffex_io_volume_pcr vs total_oi_pcr: -0.381
+  • cffex_io_oi_pcr vs cffex_io_amount_pcr: -0.456
+  • cffex_io_oi_pcr vs sse_300etf_volume_pcr: 0.124
+  • cffex_io_oi_pcr vs sse_300etf_oi_pcr: 0.549
   • cffex_io_oi_pcr vs szse_300etf_volume_pcr: 0.035
   • cffex_io_oi_pcr vs szse_300etf_oi_pcr: 0.092
-  • cffex_io_oi_pcr vs total_volume_pcr: 0.027
-  • cffex_io_oi_pcr vs total_oi_pcr: 0.458
-  • cffex_io_amount_pcr vs szse_300etf_volume_pcr: 0.119
+  • cffex_io_oi_pcr vs total_volume_pcr: 0.106
+  • cffex_io_oi_pcr vs total_oi_pcr: 0.538
+  • cffex_io_amount_pcr vs sse_300etf_volume_pcr: 0.279
+  • cffex_io_amount_pcr vs sse_300etf_oi_pcr: -0.710
+  • cffex_io_amount_pcr vs szse_300etf_volume_pcr: 0.118
   • cffex_io_amount_pcr vs szse_300etf_oi_pcr: -0.478
-  • cffex_io_amount_pcr vs total_volume_pcr: 0.287
-  • cffex_io_amount_pcr vs total_oi_pcr: -0.586
+  • cffex_io_amount_pcr vs total_volume_pcr: 0.308
+  • cffex_io_amount_pcr vs total_oi_pcr: -0.698
+  • sse_300etf_volume_pcr vs sse_300etf_oi_pcr: -0.033
+  • sse_300etf_volume_pcr vs szse_300etf_volume_pcr: 0.391
+  • sse_300etf_volume_pcr vs szse_300etf_oi_pcr: -0.136
+  • sse_300etf_volume_pcr vs total_volume_pcr: 0.968
+  • sse_300etf_volume_pcr vs total_oi_pcr: -0.042
+  • sse_300etf_oi_pcr vs szse_300etf_volume_pcr: 0.029
+  • sse_300etf_oi_pcr vs szse_300etf_oi_pcr: 0.723
+  • sse_300etf_oi_pcr vs total_volume_pcr: -0.047
+  • sse_300etf_oi_pcr vs total_oi_pcr: 0.991
   • szse_300etf_volume_pcr vs szse_300etf_oi_pcr: 0.031
-  • szse_300etf_volume_pcr vs total_volume_pcr: 0.958
-  • szse_300etf_volume_pcr vs total_oi_pcr: 0.051
-  • szse_300etf_oi_pcr vs total_volume_pcr: -0.068
-  • szse_300etf_oi_pcr vs total_oi_pcr: 0.919
-  • total_volume_pcr vs total_oi_pcr: -0.031
+  • szse_300etf_volume_pcr vs total_volume_pcr: 0.594
+  • szse_300etf_volume_pcr vs total_oi_pcr: 0.033
+  • szse_300etf_oi_pcr vs total_volume_pcr: -0.128
+  • szse_300etf_oi_pcr vs total_oi_pcr: 0.795
+  • total_volume_pcr vs total_oi_pcr: -0.052
 
+【上交所官方 spot check】
+  最近尝试 10 个交易日，成功比对 10 天：
+  • 成交量 PCR 最大偏差: 0.0000，平均偏差: 0.0000
+  • 持仓量 PCR 最大偏差: 0.0000，平均偏差: 0.0000
+  （偏差≈0 表示我们计算与上交所官方披露一致）
 
 【与 300ETF 期权波动率指数 QVIX 交叉验证】
-  • cffex_io_volume_pcr vs QVIX: 0.012（同向为正，PCR 与波动率同为情绪恐慌指标）
-  • total_volume_pcr vs QVIX: 0.036（同向为正，PCR 与波动率同为情绪恐慌指标）
+  • cffex_io_volume_pcr vs QVIX: 0.011（同向为正，PCR 与波动率同为情绪恐慌指标）
+  • sse_300etf_volume_pcr vs QVIX: -0.010（同向为正，PCR 与波动率同为情绪恐慌指标）
+  • total_volume_pcr vs QVIX: -0.002（同向为正，PCR 与波动率同为情绪恐慌指标）
+
+【CFFEX vs SSE 方向一致性验证】
+  • CFFEX IO 成交量 PCR 与 SSE 300ETF 成交量 PCR 日涨跌同向比例: 69.5%
+  （比例>50% 说明两个独立交易所的情绪指标趋势一致）
 
 【与沪深300已实现波动率交叉验证】（完全独立于期权数据）
   • cffex_io_volume_pcr vs 5日已实现波动率: 0.146
   • cffex_io_volume_pcr vs 20日已实现波动率: 0.096
-  • total_volume_pcr vs 5日已实现波动率: 0.002
-  • total_volume_pcr vs 20日已实现波动率: -0.054
+  • sse_300etf_volume_pcr vs 5日已实现波动率: -0.013
+  • sse_300etf_volume_pcr vs 20日已实现波动率: -0.165
+  • total_volume_pcr vs 5日已实现波动率: -0.015
+  • total_volume_pcr vs 20日已实现波动率: -0.159
 
 ============================================================
 PCR 与指数高低点规律初探（统计口径：CFFEX 沪深300股指期权成交量 PCR）
 ============================================================
-区间: 20240823 ~ 20260821
-PCR 均值: 0.635  |  中位数: 0.633
+区间: 20240826 ~ 20260824
+PCR 均值: 0.636  |  中位数: 0.633
 PCR 最小值: 0.366  |  最大值: 0.942
 
 成交量 PCR 与指数通常呈负相关：
   - PCR 极高（>85% 分位）往往对应市场情绪恐慌，指数处于低位区域；
   - PCR 极低（<15% 分位）往往对应市场情绪贪婪，指数处于高位区域。
 
-PCR 高位后 5 日平均涨跌幅: +1.02%
+PCR 高位后 5 日平均涨跌幅: +1.06%
 PCR 低位后 5 日平均涨跌幅: +1.00%
 PCR 与未来5日收益率相关性: -0.005
 
